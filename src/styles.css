@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+body {
+  background: linear-gradient(to bottom right, rgb(182,251,88), rgb(100,222,248));
+  background-attachment:fixed;
+  margin-top: 100px;
+  margin-bottom: 110px;
+  min-height: 500px;
+}
+
+html {
+  font-size: 13px;
+}
+.botoneliminar{
+  max-width: 25px;
+    float: right;
+    display:flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 5px;
+
+}
+.borratodo{
+  max-width: 35px;
+    max-width: 35px;
+    float: right;
+    cursor: pointer;
+    transition: 300ms all;
+}
+.partelista{
+  background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.bar{
+  margin-top: 20px !important;
+    background-color: rgb(44, 241, 37);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 15px;
+}
+.agregar{
+  border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(6, 147, 172);
+    color: white;
+    cursor: pointer;
+    transition: 100ms all;
+}
+.tareanueva{
+  width: 80%;
+  margin-right: 15px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c3c3c3;
+  color: white;
+  outline: none;
+  transition: 300ms all;
+}
+
+.badge-warning {
+  background-color: rgb(6, 147, 172) !important;
+}
+
+.btn-outline-warning {
+  border-color: rgba(6, 147, 172, 0.678)!important;
+}
+
+.btn-outline-warning:hover {
+  background-color: rgba(146, 146, 85, 0.178) !important;
+}
+
+.active {
+  background-color: rgba(255, 255, 0, 0.120);
+  font-weight: 620;
+}
+
+.colorBody1 {
+  background-color: rgb(6, 147, 172) !important;
+  border: 2px solid black !important;
+}
+
+
+
+.colorName3 {
+  color: yellow !important;
+}
+
+.colorName4 {
+  color: yellow !important;
+  text-shadow: 2px 2px 4px rgb(83, 83, 8);
+}
+
+.margin5 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.federica6{
+  font-size: 20px !important;
+}
+
+
+
